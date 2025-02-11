@@ -94,3 +94,15 @@
     left: 12px;
   }
 }
+
+@media (max-width: 690px) {
+  .recourse {
+    flex-direction: column;
+  }
+  .recourse img {
+    max-width: 350px;
+  }
+  .resource-content p {
+    font-size: 20px;
+  }
+}
