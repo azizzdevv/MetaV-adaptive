@@ -106,3 +106,9 @@
     font-size: 20px;
   }
 }
+
+@media (max-width: 1259px) {
+  .pricing-content {
+    flex-direction: column;
+  }
+}

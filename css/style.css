@@ -54,11 +54,13 @@ a {
 }
 
 button {
+  padding: 10px 20px;
   border: none;
   cursor: pointer;
   border-radius: 5px;
   font-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
   color: #fff;
+  background: linear-gradient(97.16deg, #d10ed1 12.04%, #10a3da 81.84%);
   font-weight: 500;
 }
 
@@ -277,4 +279,59 @@ nav {
 
 /* PRICING START */
 
-#
+#pricing {
+  padding-block: 50px;
+}
+
+.pricing {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.pricing-start {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.pricing-start p {
+  max-width: 500px;
+  font-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
+}
+
+.pricing-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.pricing-carts img {
+  width: 100%;
+  max-width: 350px;
+}
+
+.pricing-carts {
+  padding: 15px;
+  border-radius: 10px;
+  /* width: 100%; */
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #090823;
+}
+
+.pricing-carts p {
+  width: 100%;
+  max-width: 350px;
+  font-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
+}
+
+.pricing-btn {
+  display: flex;
+  gap: 20px;
+}
