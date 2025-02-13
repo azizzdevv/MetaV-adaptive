@@ -285,6 +285,12 @@ nav {
 
 .pricing {
   display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.pricing-head {
+  display: flex;
   justify-content: center;
   gap: 10px;
 }
@@ -316,9 +322,8 @@ nav {
 
 .pricing-carts {
   padding: 15px;
-  border-radius: 10px;
-  /* width: 100%; */
   max-width: 450px;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -334,4 +339,125 @@ nav {
 .pricing-btn {
   display: flex;
   gap: 20px;
+}
+
+/* PRICING END */
+
+/* ACTIVITY START */
+
+#activity {
+  padding-block: 70px;
+}
+
+.activity {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.activity-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.activity-content p {
+  max-width: 450px;
+  line-height: 25px;
+  font-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
+}
+
+.activity-img {
+  display: flex;
+  justify-content: center;
+}
+
+.activity-img img {
+  max-width: 900px;
+}
+
+/* ACTIVITY END */
+
+/* FOOTER START */
+
+#footer {
+  padding-block: 70px;
+  background: #090823;
+}
+
+.footer-content {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer-content h1 {
+  background: rgb(171, 159, 246);
+  background: linear-gradient(
+    90deg,
+    rgba(171, 159, 246, 1) 42%,
+    rgba(119, 193, 246, 1) 65%,
+    rgba(101, 205, 245, 1) 100%
+  );
+
+  color: transparent;
+  background-clip: text;
+}
+
+.footer-content p {
+  width: 100%;
+  max-width: 400px;
+  font-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
+  color: #fff;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+.footer-text {
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+
+.contact .logo {
+  display: flex;
+  gap: 23px;
+}
+
+.contact .logo img {
+  width: 100%;
+  max-width: 35px;
+  padding: 1px;
+}
+
+.contact p {
+  width: 100%;
+  max-width: 250px;
+  font-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
+  color: #ffffffb6;
+  font-weight: 300;
+  line-height: 20px;
 }

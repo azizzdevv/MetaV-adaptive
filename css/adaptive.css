@@ -109,6 +109,51 @@
 
 @media (max-width: 1259px) {
   .pricing-content {
+    flex-wrap: wrap;
+  }
+  .pricing-carts {
+    align-items: center;
+  }
+}
+
+@media (max-width: 690px) {
+  .activity {
     flex-direction: column;
+    align-items: center;
+  }
+
+  .activity-img img {
+    width: 100%;
+    max-width: 480px;
+  }
+}
+
+@media (max-width: 880px) {
+  .activity-img img {
+    width: 100%;
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 990px) {
+  .footer-content {
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .about,
+  .service,
+  .contact {
+    width: 48%;
+    margin-bottom: 20px;
+  }
+
+  .contact {
+    width: 80%;
+  }
+
+  .contact .logo img {
+    width: 100%;
+    max-width: 20px;
   }
 }
